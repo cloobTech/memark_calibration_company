@@ -37,32 +37,104 @@ export const where_choose_us_content = [
   },
 ];
 
-
-
 export const faqs = [
   {
-    title: "What is the purpose of this platform?",
+    title: "What services does your company provide?",
     description:
-      "Our platform is designed to help researchers, businesses, and students collect quality data from participants. Whether you're conducting academic studies, market research, or user testing, our platform ensures reliable responses that drive meaningful conclusions.",
+      "We specialize in the calibration of storage tanks, ensuring accurate measurement and compliance with industry standards. Our services cover fixed and mobile tanks, including volume calibration, strapping, and verification for custody transfer, inventory management, and regulatory purposes.",
   },
   {
-    title: "How do I get started?",
+    title: "Why is storage tank calibration important?",
     description:
-      "Getting started is easy! Simply create an account, set up a project, and start recruiting participants. Our platform guides you through the process, making it easy to collect and analyze data.",
+      "Proper calibration is crucial to ensure precise measurement of stored products, maintain regulatory compliance, and prevent costly inventory discrepancies. Regular calibration also improves operational efficiency and enhances safety standards.",
   },
   {
-    title: "How do I recruit participants?",
+    title: "How often should a storage tank be calibrated?",
     description:
-      "Our platform offers a range of recruitment options to help you find the right participants for your project. You can recruit participants from our panel, share your survey link on social media, or target specific demographics using our advanced targeting options.",
+      "Calibration frequency depends on several factors, including regulatory requirements, the type of product stored, and operational changes. Typically, tanks should be calibrated every 5 to 10 years, or whenever there are structural modifications or suspected measurement inaccuracies.",
   },
   {
-    title: "How do I analyze my results?",
+    title: "What methods do you use for tank calibration?",
     description:
-      "Once your survey is complete, you can analyze your results using our built-in analytics tools. Our platform offers a range of data visualization options to help you make sense of your data and draw meaningful conclusions.",
+      "We employ both traditional manual methods and advanced technologies such as laser scanning and 3D modeling to achieve highly accurate calibrations. Our team selects the most appropriate method based on tank type, size, and client requirements.",
   },
   {
-    title: "How do I get paid for participating in surveys?",
+    title: "How can I request a calibration service?",
     description:
-      "If you're a participant looking to earn money by taking surveys, simply create an account, complete your profile, and start participating in available surveys. You'll earn points for each survey you complete, which can be redeemed for cash or gift cards.",
+      "Requesting a service is simple! You can contact us through our website, call our customer service line, or email us directly. Our team will assist you in scheduling a site visit and tailoring a calibration plan that fits your operational needs.",
+  },
+];
+
+export const services = [
+  {
+    title: "Measurement and Control",
+    content: [
+      "Road tanker calibration",
+      "Surface (vertical, horizontal, spherical) tank calibration",
+      "Under Ground (U/G) Tank Calibration",
+      "LPC Tank Calibration",
+    ],
+    icon: "fa-solid fa-temperature-three-quarters",
+    useTick: true,
+  },
+  {
+    title: "Flow Measurement",
+    content: [
+      "Flow meter calibration",
+      "Meter calibration/Providing",
+      "Metering system upgrade/auditing",
+      "Dispensing pumps calibration",
+    ],
+    icon: "fa-solid fa-water",
+    useTick: true,
+  },
+  {
+    title: "Consultation and Training",
+    content: [
+      "Calibration procedure development",
+      "On-site training for staff on calibration practices",
+      "Regulatory compliance consultation",
+    ],
+    icon: "fa-solid fa-book",
+    useTick: true,
+  },
+  {
+    title: "Shortage/Conflict Resolution",
+    content: [
+      "We have best hands in our calibration and inspection team to interpret calibration certificate, undertake product discharge process, investigate and resolve product shortage/conflict between Dealers and Transporters/Drivers.",
+      "We are experiencing satisfactory results and do strive for greater improvement.",
+    ],
+    icon: "fa-solid fa-people-arrows",
+    useTick: false,
+  },
+];
+
+export const locations = [
+  {
+    title: "Kano Calibration Office",
+    address:
+      "Off Airport Rd, from Pounded Yam to Jaba, by Shago Tara Bus Stop, Jaba Ungogo L.G.A, Kano.",
+    phone: "+234 902 000 0000",
+    email: "memarkinternational@gmail.com",
+  },
+  {
+    title: "Kaduna Calibration Office",
+    address:
+      "KM 16 Kachia Road, opp. Oando Blending Plant, Kaduna Close to Refinery Junction, Kaduna.",
+    phone: "+234 902 000 0000",
+    email: "memarkinternational@gmail.com",
+  },
+  {
+    title: "Abuja Calibration Office",
+    address:
+      "Tunga Maje Zuba/Gwagwalada Rd. beside Gegu Petrol Station, Opp. Cozy Petrol Station",
+    phone: "+234 902 000 0000",
+    email: "memarkinternational@gmail.com",
+  },
+  {
+    title: "Ilorin Calibration Office",
+    address: "Oke Oyi, Olooru Road, Moro L.G.A., Kwara State",
+    phone: "+234 902 000 0000",
+    email: "memarkinternational@gmail.com",
   },
 ];

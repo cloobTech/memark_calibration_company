@@ -1,11 +1,20 @@
 import React from "react";
 import Nav from "../components/NavBar";
 import { Demo } from "../components/Carousel";
+import MobileNav from "../components/MobileNav";
 
-const Hero = () => {
+const Hero = ({ isOpen, setIsOpen }) => {
   return (
     <div className="h-screen bg-primary bg-opacity-10 py-16 ">
       <Nav />
+      <MobileNav isOpen={isOpen} setIsOpen={setIsOpen} />
+      {/* Mobile Handburger menu */}
+      <div className="flex justify-between sm:hidden p-6 px-8 absolute top-0 left w-full ">
+        <p>logo</p>
+        <div className="fixed flex items-center gap-2 font-bold right-8 p-2 z-10 bg-white/30 backdrop-blur-lg rounded shadow" onClick={() => setIsOpen(!isOpen)}>
+          Menu <i className="fa fa-bars "></i>
+        </div>
+      </div>
       <section className="flex justify-between container mx-auto pt-12">
         <div className="text-gray-800 w-[40%] flex flex-col gap-2 justify-center">
           <h1 className="text-[min(10vw,_70px)] font-bold tracking-widest text-green-900">

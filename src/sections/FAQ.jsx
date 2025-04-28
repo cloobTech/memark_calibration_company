@@ -5,8 +5,23 @@ import { faqs } from "../constant";
 // See groceries data above
 const items = faqs.map((item) => (
   <Accordion.Item key={item.title} value={item.title}>
-    <Accordion.Control>{item.title}</Accordion.Control>
-    <Accordion.Panel>{item.description}</Accordion.Panel>
+    <Accordion.Control
+      style={{
+        backgroundColor: "rgba(0, 0, 0, 0.1)",
+        // borderRadius: "10px",
+        fontWeight: 900,
+        marginTop: "10px",
+      }}
+    >
+      {item.title}
+    </Accordion.Control>
+    <Accordion.Panel
+      style={{
+        fontSize: "12px",
+      }}
+    >
+      {item.description}
+    </Accordion.Panel>
   </Accordion.Item>
 ));
 

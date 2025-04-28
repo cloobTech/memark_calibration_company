@@ -15,20 +15,51 @@ const Nav = () => {
   }, []);
   return (
     <div
-      className={` z-20 transition-all duration-500 ease-in-out  h-[60px] z-1  fixed top-0 left-0 w-full  text-sm  ${
+      className={` hidden z-20 transition-all duration-500 ease-in-out  h-[60px] z-1  sm:block fixed top-0 left-0 w-full  text-sm  ${
         isScrolled ? scrolledStyle : ""
       }`}
     >
-      <div className=" container relative flex items-center justify-center mx-auto h-full">
-        <div className="flex items-center gap-4 absolute left-0">
-          <p className="text-green-900 font-bold">Logo</p>
-        </div>
+      <div className=" container relative flex items-center justify-between h-full">
+        <p className="text-green-900 font-bold">Logo</p>
         <ul className="flex gap-4 font-bold text-green-900">
-          <li>About Us</li>
-          <li>Services</li>
-          <li>Contacts</li>
-          <li>FAQ</li>
+          <li>
+            <a
+              href="#about_us"
+              className="hover:text-green-700 transition-all duration-500 ease-in-out"
+            >
+              About Us
+            </a>
+          </li>
+          <li>
+            <a
+              href="#services"
+              className="hover:text-green-700 transition-all duration-500 ease-in-out"
+            >
+              Services
+            </a>
+          </li>
+          <li>
+            <a
+              href="#contacts"
+              className="hover:text-green-700 transition-all duration-500 ease-in-out"
+            >
+              Contacts
+            </a>
+          </li>
+          <li>
+            <a
+              href="#faq"
+              className="hover:text-green-700 transition-all duration-500 ease-in-out"
+            >
+              FAQ
+            </a>
+          </li>
         </ul>
+        <a href="#contacts">
+          <button className="font-bold rounded bg-green-900 text-white px-6 py-2 cursor-pointer hover:bg-green-700 transition-all duration-300 ease-in-out">
+            Contact Us
+          </button>
+        </a>
       </div>
     </div>
   );

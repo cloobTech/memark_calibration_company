@@ -11,13 +11,13 @@ const Footer = () => {
             </div>
             <ul className="flex gap-6 text-xs">
               <li>
-                <a href="#how-it-works">About Us</a>
+                <a href="#about_us">About Us</a>
               </li>
               <li>
-                <a href="#features">Services</a>
+                <a href="#services">Services</a>
               </li>
               <li>
-                <a href="#testimonials">Contacts</a>
+                <a href="#contacts">Contacts</a>
               </li>
               <li>
                 <a href="#faq">FAQ</a>

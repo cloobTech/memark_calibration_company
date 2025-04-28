@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import Hero from "../sections/Hero";
 import About from "../sections/About";
 import Services from "../sections/Services";
@@ -7,13 +7,15 @@ import Footer from "../sections/Footer";
 import FAQ from "../sections/FAQ";
 
 const Index = () => {
+  const [isOpen, setIsOpen] = useState(true);
+
   return (
     <div className="">
-      <Hero />
+      <Hero isOpen={isOpen} setIsOpen={setIsOpen} />
       <About />
       <Services />
       <Contacts />
-      <FAQ/>
+      <FAQ />
       <Footer />
     </div>
   );

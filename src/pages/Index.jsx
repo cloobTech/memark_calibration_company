@@ -7,7 +7,7 @@ import Footer from "../sections/Footer";
 import FAQ from "../sections/FAQ";
 
 const Index = () => {
-  const [isOpen, setIsOpen] = useState(true);
+  const [isOpen, setIsOpen] = useState(false);
 
   return (
     <div className="">

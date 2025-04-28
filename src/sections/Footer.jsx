@@ -40,7 +40,9 @@ const Footer = () => {
         </div>
         <hr className="bg-gray-300 my-8" />
         <div className="flex justify-between items-center">
-          <div className="">&copy; 2025. All Rights Reserved</div>
+          <div className="">
+            &copy; {new Date().getFullYear()}. All Rights Reserved
+          </div>
           <div className="flex gap-4">
             <p>Terms</p>
             <p>Privacy</p>

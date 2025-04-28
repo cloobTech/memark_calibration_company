@@ -1,0 +1,49 @@
+@import "https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap";
+@import "@mantine/core/styles.css";
+@import "@mantine/carousel/styles.css";
+@import "tailwindcss";
+
+@theme {
+  /* --color-primary: #f6fef9, */
+  --color-primary: #edfff4;
+}
+
+@layer base {
+  :root {
+    font-family: "Poppins", system-ui, Avenir, Helvetica, Arial, sans-serif;
+    line-height: 1.5;
+    font-weight: 400;
+
+    color: #edfff4;
+
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  /* h1 {
+    font-size: 3rem;
+    font-weight: 700;
+    line-height: 1.2;
+    margin-bottom: 1rem;
+  } */
+
+  h3 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 1.2;
+  }
+}
+
+@layer components {
+  .container {
+    width: 80%;
+    margin: 0 auto;
+  }
+
+
+}
+
+@utility container {
+  width: 80%;
+}

@@ -48,7 +48,9 @@ const Hero = ({ isOpen, setIsOpen }) => {
         <h1 className="text-4xl sm:text-6xl font-bold mb-2 text-green-600">
           Welcome to Memark
         </h1>
-        <h3 className="mb-4 text-green-600">Calibration Services Limited</h3>
+        <h3 className="mb-4 sm:text-4xl text-green-600">
+          Calibration Services Limited
+        </h3>
         <p className="text-lg sm:text-xl max-w-[600px] text-gray-300 ">
           We specialize in the precise calibration of storage tanks and
           industrial systems.

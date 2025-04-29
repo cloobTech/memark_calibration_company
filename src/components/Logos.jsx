@@ -7,12 +7,12 @@ import mai_kifi from "../assets/logos/mai_kifi.png";
 import nnpc from "../assets/logos/nnpc.png";
 import total from "../assets/logos/total.png";
 
-const logos = [aliko, aa_rano, amasco, coinoil, mai_kifi, nnpc, total];
+const logos = [aa_rano, amasco, coinoil, mai_kifi, nnpc, total, aliko];
 
 const Logos = () => {
   return (
     <div className=" overflow-x-auto whitespace-nowrap py-4">
-      <div className="flex gap-8 px-4 justify-center">
+      <div className="flex gap-8 px-4 justify-start">
         {logos.map((logo, index) => (
           <img
             key={index}

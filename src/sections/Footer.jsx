@@ -6,12 +6,12 @@ const Footer = () => {
     <div className="mt-[12] sm:mt-24 bg-green-900 text-white">
       <div className="p-12">
         <div className="flex flex-col sm:flex-row justify-between">
-          <div>
-            <div className="font-bold text-brand-dark text-2xl mb-2 flex items-center gap-2">
+          <div className="">
+            <div className="font-bold text-brand-dark text-2xl mb-2 flex items-center justify-center sm:justify-start gap-2">
               <img src={logo} alt="logo" srcset="" className="w-24 h-auto" />
               Memark
             </div>
-            <ul className="flex gap-6 text-xs">
+            <ul className="flex gap-6 text-xs justify-center sm:justify-start">
               <li>
                 <a href="#about_us">About Us</a>
               </li>
@@ -27,7 +27,9 @@ const Footer = () => {
             </ul>
           </div>
           <div className="mt-6 sm:mt-0">
-            <div className="mb-2">Join our news letter</div>
+            <div className="mb-2 text-center sm:text-start">
+              Join our news letter
+            </div>
             <div>
               <input
                 type="text"

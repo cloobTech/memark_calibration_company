@@ -38,6 +38,25 @@
     font-weight: 700;
     line-height: 1.2;
   }
+
+  @keyframes fade {
+    0%,
+    14.28% {
+      opacity: 0;
+    }
+    14.28%,
+    28.56% {
+      opacity: 1;
+    }
+    28.56%,
+    100% {
+      opacity: 0;
+    }
+  }
+
+  .animate-fade {
+    animation: fade 35s infinite; /* Total duration = 5s per image * number of images */
+  }
 }
 
 @layer components {

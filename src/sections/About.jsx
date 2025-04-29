@@ -6,9 +6,9 @@ import WhyChooseUsCard from "../components/WhyChooseUsCard";
 const About = () => {
   return (
     <div className="" id="about_us">
-      <section className="h-[40vh] bg-primary">
+      <section className="h-[40vh]">
         <div className="text-center flex flex-col">
-          <h1 className="text-center text-gray-700 text-4xl md:text-5xl md:mb-2 font-bold my-4  ">
+          <h1 className="text-center text-gray-700 text-3xl md:text-4xl md:mb-2 font-bold my-4 mt-8 ">
             This is who we are
           </h1>
           <p className="text-center justify-center flex items-center gap-2 text-gray-500">

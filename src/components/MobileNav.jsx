@@ -3,7 +3,7 @@ import React from "react";
 const MobileNav = ({ isOpen, setIsOpen }) => {
   return (
     <div
-      className={`block sm:hidden fixed top-0 left-0  w-[70%] h-[70px] px-6 flex flex-col z-20 transition-all duration-500 ease-in-out bg-white/30 backdrop-blur-lg shadow-lg text-black h-screen py-8 ${
+      className={`block sm:hidden fixed top-0 left-0  w-[70%] h-[70px] px-6 flex flex-col z-[50] transition-all duration-500 ease-in-out bg-white/30 backdrop-blur-lg shadow-lg text-black h-screen py-8 ${
         isOpen ? "left-0" : "left-[-100%]"
       }`}
     >

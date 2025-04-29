@@ -15,13 +15,13 @@ const Nav = () => {
   }, []);
   return (
     <div
-      className={` hidden z-20 transition-all duration-500 ease-in-out  h-[60px] z-1  sm:block fixed top-0 left-0 w-full  text-sm  ${
+      className={` hidden z-[50] transition-all duration-500 ease-in-out  h-[60px] z-1  sm:block fixed top-0 left-0 w-full  text-sm  ${
         isScrolled ? scrolledStyle : ""
       }`}
     >
       <div className=" container relative flex items-center justify-between h-full">
-        <p className="text-green-900 font-bold">Logo</p>
-        <ul className="flex gap-4 font-bold text-green-900">
+        <p className="text-green-600 font-bold">Logo</p>
+        <ul className="flex gap-4 font-bold text-green-600">
           <li>
             <a
               href="#about_us"

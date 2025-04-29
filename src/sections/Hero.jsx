@@ -1,50 +1,59 @@
 import React from "react";
 import Nav from "../components/NavBar";
-import { Demo } from "../components/Carousel";
 import MobileNav from "../components/MobileNav";
+import image1 from "../assets/tanker1.jpg";
+import image2 from "../assets/tanker2.png";
+import image3 from "../assets/tanker3.webp";
+import image4 from "../assets/tanker4.jpg";
+import image5 from "../assets/tanker5.jpg";
+import image6 from "../assets/tanker6.jpg";
+import image7 from "../assets/tanker7.jpg";
+
+const images = [image1, image2, image3, image4, image5, image6, image7];
 
 const Hero = ({ isOpen, setIsOpen }) => {
   return (
-    <div className="h-screen bg-primary bg-opacity-10 py-16 ">
+    <div className="relative h-screen w-full overflow-hidden">
       <Nav />
       <MobileNav isOpen={isOpen} setIsOpen={setIsOpen} />
       {/* Mobile Handburger menu */}
-      <div className="flex justify-between sm:hidden p-6 px-8 absolute top-0 left w-full ">
-        <p>logo</p>
-        <div className="fixed flex items-center gap-2 font-bold right-8 p-2 z-10 bg-white/30 backdrop-blur-lg rounded shadow" onClick={() => setIsOpen(!isOpen)}>
+      <div className="z-[40] flex justify-between items-center sm:hidden p-6 px-8 absolute top-0 left w-full ">
+        <p className="font-bold text-green-600">Memark</p>
+        <div
+          className="fixed flex items-center gap-2 font-bold right-8 p-2  bg-white/30 backdrop-blur-lg rounded shadow"
+          onClick={() => setIsOpen(!isOpen)}
+        >
           Menu <i className="fa fa-bars "></i>
         </div>
       </div>
-      <section className="flex justify-between container mx-auto pt-12">
-        <div className="text-gray-800 w-[40%] flex flex-col gap-2 justify-center">
-          <h1 className="text-[min(10vw,_70px)] font-bold tracking-widest text-green-900">
-            MEMARK
-          </h1>
-          <h3 className="text-3xl font-bold tracking-wide text-green-900">
-            CALIBRATION SERVICES LIMITED
-          </h3>
-          <p>
-            We specialize in the precise calibration of storage tanks: road
-            tankers, level guage, underground tanks, and other industrial
-            systems. Our experienced team ensures your equipment runs safely,
-            efficiently, and in full compliance.
-          </p>
-        </div>
-        <div className="rounded-lg w-[500px] h-[500px] bg-white/40 backdrop-blur-lg shadow-lg flex items-center justify-center relative">
-          <div className="absolute top-4 left-3 text-black flex gap-2">
-            <span className="w-[20px] h-[20px] rounded-full bg-red-700"></span>
-            <span className="w-[20px] h-[20px] rounded-full bg-yellow-300"></span>
-            <span className="w-[20px] h-[20px] rounded-full bg-green-600"></span>
-          </div>
-          {/* <div
+      {/* Background Slideshow */}
+      <div className="absolute inset-0 z-0">
+        {images.map((image, index) => (
+          <div
+            key={index}
+            className={`absolute inset-0 bg-cover bg-center opacity-0 animate-fade`}
             style={{
-              backgroundImage: `url(${storageTank})`,
+              backgroundImage: `url(${image})`,
+              animationDelay: `${index * 5}s`, // Delay each image by 5 seconds
             }}
-            className="bg-cover bg-center w-full h-[80%] "
-          ></div> */}
-          <Demo />
-        </div>
-      </section>
+          />
+        ))}
+      </div>
+
+      {/* Overlay */}
+      <div className="absolute inset-0 bg-black/70 z-10" />
+
+      {/* Content */}
+      <div className="relative z-20 flex flex-col items-center justify-center h-full text-center text-white">
+        <h1 className="text-4xl sm:text-6xl font-bold mb-2 text-green-600">
+          Welcome to Memark
+        </h1>
+        <h3 className="mb-4 text-green-600">Calibration Services Limited</h3>
+        <p className="text-lg sm:text-xl max-w-[600px] text-gray-300 ">
+          We specialize in the precise calibration of storage tanks and
+          industrial systems.
+        </p>
+      </div>
     </div>
   );
 };

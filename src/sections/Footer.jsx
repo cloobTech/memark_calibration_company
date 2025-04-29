@@ -1,4 +1,5 @@
 import React from "react";
+import logo from "../assets/logos/memark.png";
 
 const Footer = () => {
   return (
@@ -6,7 +7,8 @@ const Footer = () => {
       <div className="p-12">
         <div className="flex flex-col sm:flex-row justify-between">
           <div>
-            <div className="font-bold text-brand-dark text-2xl mb-2">
+            <div className="font-bold text-brand-dark text-2xl mb-2 flex items-center gap-2">
+              <img src={logo} alt="logo" srcset="" className="w-24 h-auto" />
               Memark
             </div>
             <ul className="flex gap-6 text-xs">
@@ -32,7 +34,7 @@ const Footer = () => {
                 placeholder="Enter your email address"
                 className="bg-white p-3 rounded mr-4 sm:min-w-[300px] w-full"
               />
-              <button className="px-4 py-2 bg-green-600 text-white font-bold rounded mt-2 sm:mt-0 w-full sm:w-auto">
+              <button className="px-4 py-2 bg-green-600 text-white font-bold rounded mt-2 w-full ">
                 Subscribe
               </button>
             </div>

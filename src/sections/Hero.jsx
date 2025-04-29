@@ -8,6 +8,7 @@ import image4 from "../assets/tanker4.jpg";
 import image5 from "../assets/tanker5.jpg";
 import image6 from "../assets/tanker6.jpg";
 import image7 from "../assets/tanker7.jpg";
+import logo from "../assets/logos/memark.png";
 
 const images = [image1, image2, image3, image4, image5, image6, image7];
 
@@ -18,7 +19,9 @@ const Hero = ({ isOpen, setIsOpen }) => {
       <MobileNav isOpen={isOpen} setIsOpen={setIsOpen} />
       {/* Mobile Handburger menu */}
       <div className="z-[40] flex justify-between items-center sm:hidden p-6 px-8 absolute top-0 left w-full ">
-        <p className="font-bold text-green-600">Memark</p>
+        <p className="font-bold text-green-600">
+          <img src={logo} alt="logo" srcset="" className="w-24 h-auto" />
+        </p>
         <div
           className="fixed flex items-center gap-2 font-bold right-8 p-2  bg-white/30 backdrop-blur-lg rounded shadow"
           onClick={() => setIsOpen(!isOpen)}

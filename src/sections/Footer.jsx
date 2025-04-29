@@ -1,7 +1,14 @@
-import React from "react";
+import React, { useState } from "react";
 import logo from "../assets/logos/memark.png";
 
 const Footer = () => {
+  const [inputValue, setInputValue] = useState("");
+  const handleInputChange = (event) => {
+    setInputValue(event.target.value);
+  };
+  const clearInput = () => {
+    setInputValue("");
+  };
   return (
     <div className="mt-[12] sm:mt-24 bg-green-900 text-white">
       <div className="p-12">
@@ -32,11 +39,15 @@ const Footer = () => {
             </div>
             <div>
               <input
+                onChange={handleInputChange}
+                value={inputValue}
                 type="text"
                 placeholder="Enter your email address"
-                className="bg-white p-3 rounded mr-4 sm:min-w-[300px] w-full"
+                className="bg-white text-gray-800 p-3 rounded mr-4 sm:min-w-[300px] w-full"
               />
-              <button className="px-4 py-2 bg-green-600 text-white font-bold rounded mt-2 w-full ">
+              <button
+              onClick={clearInput}
+              className="cursor-pointer px-4 py-2 bg-green-600 text-white font-bold rounded mt-2 w-full ">
                 Subscribe
               </button>
             </div>

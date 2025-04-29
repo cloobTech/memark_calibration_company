@@ -12,7 +12,7 @@ const logos = [aa_rano, amasco, coinoil, mai_kifi, nnpc, total, aliko];
 const Logos = () => {
   return (
     <div className=" overflow-x-auto whitespace-nowrap py-4">
-      <div className="flex gap-8 px-4 justify-start">
+      <div className="flex gap-8 px-4 justify-start sm:justify-center">
         {logos.map((logo, index) => (
           <img
             key={index}

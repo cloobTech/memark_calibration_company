@@ -1,6 +1,6 @@
 import React from "react";
 
-const LocationCard = ({ title, address, phone, email }) => {
+const LocationCard = ({ title, address, phone, phone_2, email }) => {
   return (
     <div className="min-h-[300px] shadow-lg rounded-lg bg-black/70 p-4 sm:p-8">
       <div className="flex flex-col justify-center gap-4  h-full text-white">
@@ -15,6 +15,8 @@ const LocationCard = ({ title, address, phone, email }) => {
           <i className="fa fa-phone my-[4px]"></i>
           <p className=" ">
             <>{phone}</>
+            <br />
+            {phone_2}
             <br />
             <p className="text-xs mt-2 ">
               Monday - Saturday: 8:00 AM - 5:00 PM

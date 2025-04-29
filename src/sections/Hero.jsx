@@ -51,9 +51,8 @@ const Hero = ({ isOpen, setIsOpen }) => {
         <h3 className="mb-4 sm:text-4xl text-green-600">
           Calibration Services Limited
         </h3>
-        <p className="text-lg sm:text-xl max-w-[600px] text-gray-300 ">
-          We specialize in the precise calibration of storage tanks and
-          industrial systems.
+        <p className="text-lg sm:text-xl max-w-[600px] text-gray-300 font-bold">
+          The Mark of Quality Precision in Measurement...
         </p>
       </div>
     </div>

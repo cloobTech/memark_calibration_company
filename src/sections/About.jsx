@@ -2,6 +2,7 @@ import React from "react";
 import AboutCard from "../components/AboutCard";
 import { where_choose_us_content } from "../constant";
 import WhyChooseUsCard from "../components/WhyChooseUsCard";
+import Logos from "../components/Logos";
 
 const About = () => {
   return (
@@ -25,6 +26,12 @@ const About = () => {
             <WhyChooseUsCard key={index} {...item} />
           ))}
         </div>
+      </section>
+      <section className="relative top-[-10px] container ">
+        <h3 className="text-center text-gray-700 text-2xl mb-4">
+          Trusted by Industry Leaders
+        </h3>
+        <Logos />
       </section>
     </div>
   );

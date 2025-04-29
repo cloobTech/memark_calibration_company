@@ -2,17 +2,26 @@ export const about_us_content = [
   {
     title: "About Us",
     content:
-      "At MEMARK Calibration Services Ltd, we specialize in providing reliable and precise calibration services to ensure your instruments and equipment meet the highest industry standards. With years of experience in the field, our commitment to accuracy, integrity, and customer satisfaction has earned us a trusted name in the industry.",
+      "Calibration Service Provider, incorporated under the companies and allied matter ACT.1990 Vide certificate of incorporation dated may 18, 1993 bearing number RC:222:134 in Abuja, Nigeria and DPR licensed.",
+    content_2:
+      "We have a passion as service providers in measurements to solve shortage conflict in products delivery and to ensure that our clients get the right quantity of products they pay for.",
+    content_3:
+      "We have tested expertise in tank calibration (Road Tankers, Underground (U/G) Tank), surface (Vertical and Horizontal) tanks, service station (dispenser) tanks, (LPG tank, leak text service).",
+    content_4:
+      "Other areas of our expertise include provision of resource persons through our training and capacity building programs (consultancy services).",
+    has_other_content: true,
   },
   {
     title: "Our Mission",
     content:
       "Our mission is to deliver accurate, timely, and affordable calibration services that help our clients maintain operational excellence and meet compliance standards. We are committed to supporting industries by ensuring their tools and instruments perform with absolute precision.",
+    has_other_content: false,
   },
   {
     title: "Our Vision",
     content:
       "Our VisionTo become the leading provider of calibration services in the region by consistently exceeding client expectations, embracing innovation, and maintaining the highest level of technical expertise and service delivery.",
+    has_other_content: false,
   },
 ];
 
@@ -114,27 +123,31 @@ export const locations = [
     title: "Kano Calibration Office",
     address:
       "Off Airport Rd, from Pounded Yam to Jaba, by Shago Tara Bus Stop, Jaba Ungogo L.G.A, Kano.",
-    phone: "+234 902 000 0000",
+    phone: "+234 706 908 2727",
+    phone_2: "+234 803 234 8662",
     email: "memarkinternational@gmail.com",
   },
   {
     title: "Kaduna Calibration Office",
     address:
       "KM 16 Kachia Road, opp. Oando Blending Plant, Kaduna Close to Refinery Junction, Kaduna.",
-    phone: "+234 902 000 0000",
+    phone: "+234 706 908 2727",
+    phone_2: "+234 803 234 8662",
     email: "memarkinternational@gmail.com",
   },
   {
     title: "Abuja Calibration Office",
     address:
       "Tunga Maje Zuba/Gwagwalada Rd. beside Gegu Petrol Station, Opp. Cozy Petrol Station",
-    phone: "+234 902 000 0000",
+    phone: "+234 706 908 2727",
+    phone_2: "+234 803 234 8662",
     email: "memarkinternational@gmail.com",
   },
   {
     title: "Ilorin Calibration Office",
     address: "Oke Oyi, Olooru Road, Moro L.G.A., Kwara State",
-    phone: "+234 902 000 0000",
+    phone: "+234 706 908 2727",
+    phone_2: "+234 803 234 8662",
     email: "memarkinternational@gmail.com",
   },
 ];

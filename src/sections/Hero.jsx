@@ -14,11 +14,11 @@ const images = [image1, image2, image3, image4, image5, image6, image7];
 
 const Hero = ({ isOpen, setIsOpen }) => {
   return (
-    <div className="relative h-screen w-full overflow-hidden">
+    <div className="relative h-dvh w-full overflow-hidden">
       <Nav />
       <MobileNav isOpen={isOpen} setIsOpen={setIsOpen} />
       {/* Mobile Handburger menu */}
-      <div className="z-[40] flex justify-between items-center sm:hidden p-6 px-8 absolute top-0 left w-full ">
+      <div className="z-[40] flex justify-between items-center sm:hidden  px-8 absolute top-[-8px] left w-full ">
         <p className="font-bold text-green-600">
           <img src={logo} alt="logo" srcset="" className="w-24 h-auto" />
         </p>

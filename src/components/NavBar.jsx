@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import logo from "../assets/logos/memark.png"
+import logo from "../assets/logos/memark.png";
 
 const scrolledStyle = "bg-white/30 backdrop-blur-lg shadow-lg text-black";
 
@@ -21,10 +21,14 @@ const Nav = () => {
       }`}
     >
       <div className=" container relative flex items-center justify-between h-full">
-        <p className="text-green-600 font-bold ">
+        <p className=" font-bold ">
           <img src={logo} alt="logo" srcset="" className="w-24 h-auto" />
         </p>
-        <ul className="flex gap-4 font-bold text-green-600">
+        <ul
+          className={`flex gap-4 font-bold ${
+            isScrolled ? "text-gray-900" : "text-white"
+          }`}
+        >
           <li>
             <a
               href="#about_us"
@@ -47,6 +51,14 @@ const Nav = () => {
               className="hover:text-green-700 transition-all duration-500 ease-in-out"
             >
               Contacts
+            </a>
+          </li>
+          <li>
+            <a
+              href="#clientele"
+              className="hover:text-green-700 transition-all duration-500 ease-in-out"
+            >
+              Clientele
             </a>
           </li>
           <li>

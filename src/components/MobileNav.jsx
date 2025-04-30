@@ -18,7 +18,7 @@ const MobileNav = ({ isOpen, setIsOpen }) => {
           onClick={() => setIsOpen(false)}
         ></i>
       </div>
-      <ul className="flex flex-col gap-6 mb-6 text-green-900 font-bold">
+      <ul className="flex flex-col gap-6 mb-6 font-bold">
         <li onClick={() => setIsOpen(false)}>
           <a href="#about_us">About Us</a>
         </li>
@@ -27,6 +27,9 @@ const MobileNav = ({ isOpen, setIsOpen }) => {
         </li>
         <li onClick={() => setIsOpen(false)}>
           <a href="#contacts">Contacts</a>
+        </li>
+        <li onClick={() => setIsOpen(false)}>
+          <a href="#clientele">Clientele</a>
         </li>
         <li onClick={() => setIsOpen(false)}>
           <a href="#faq">FAQ</a>

@@ -48,10 +48,10 @@ const Hero = ({ isOpen, setIsOpen }) => {
 
       {/* Content */}
       <div className="relative z-20 flex flex-col items-center justify-center h-full text-center text-white">
-        <h1 className="text-4xl sm:text-6xl font-bold mb-2 text-green-600">
+        <h1 className="text-4xl sm:text-6xl font-bold mb-2 text-shadow-lg text-shadow-black">
           Welcome to Memark
         </h1>
-        <h3 className="mb-4 sm:text-4xl text-green-600">
+        <h3 className="mb-4 sm:text-4xl text-shadow-lg text-shadow-black">
           Calibration Services Limited
         </h3>
         <p className="text-lg sm:text-xl max-w-[600px] text-gray-300 font-bold">

@@ -27,10 +27,15 @@ const About = () => {
           ))}
         </div>
       </section>
-      <section className="relative top-[-10px] container ">
+      <section className="relative top-[-10px] container " id="clientele">
         <h3 className="text-center text-gray-700 text-2xl mb-4">
           Trusted by Industry Leaders
         </h3>
+        <p className="text-center text-gray-600 mb-4 text-xs md:text-sm lg:text-base">
+          We are proud to be the trusted partner of some of the most reputable
+          companies in the industry. Our commitment to quality and excellence
+          has earned us the confidence of our esteemed clientele.
+        </p>
         <Logos />
       </section>
     </div>

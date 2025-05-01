@@ -29,6 +29,12 @@ const Footer = () => {
                 <a href="#contacts">Contacts</a>
               </li>
               <li>
+                <a href="#gallery">Gallery</a>
+              </li>
+              <li>
+                <a href="#clientele">Clientele</a>
+              </li>
+              <li>
                 <a href="#faq">FAQ</a>
               </li>
             </ul>
@@ -46,8 +52,9 @@ const Footer = () => {
                 className="bg-white text-gray-800 p-3 rounded mr-4 sm:min-w-[300px] w-full"
               />
               <button
-              onClick={clearInput}
-              className="cursor-pointer px-4 py-2 bg-green-600 text-white font-bold rounded mt-2 w-full ">
+                onClick={clearInput}
+                className="cursor-pointer px-4 py-2 bg-green-600 text-white font-bold rounded mt-2 w-full "
+              >
                 Subscribe
               </button>
             </div>

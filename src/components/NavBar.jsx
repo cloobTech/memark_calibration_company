@@ -55,6 +55,14 @@ const Nav = () => {
           </li>
           <li>
             <a
+              href="#gallery"
+              className="hover:text-green-700 transition-all duration-500 ease-in-out"
+            >
+              Gallery
+            </a>
+          </li>
+          <li>
+            <a
               href="#clientele"
               className="hover:text-green-700 transition-all duration-500 ease-in-out"
             >

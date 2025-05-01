@@ -10,8 +10,8 @@ const ServiceCard = ({ title, content, useTick, icon }) => {
       </div>
       <ul className="text-xs ">
         {content.map((item, index) => (
-          <li key={index} className="flex gap-2 items-center text-gray-300">
-            {useTick && <i className="fa fa-circle-check text-xs"></i>}
+          <li key={index} className="flex gap-2  text-gray-300">
+            {useTick && <i className="fa fa-circle-check mt-[2px] text-xs"></i>}
             <span>{item}</span>
           </li>
         ))}

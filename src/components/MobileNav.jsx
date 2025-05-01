@@ -29,6 +29,9 @@ const MobileNav = ({ isOpen, setIsOpen }) => {
           <a href="#contacts">Contacts</a>
         </li>
         <li onClick={() => setIsOpen(false)}>
+          <a href="#gallery">Gallery</a>
+        </li>
+        <li onClick={() => setIsOpen(false)}>
           <a href="#clientele">Clientele</a>
         </li>
         <li onClick={() => setIsOpen(false)}>

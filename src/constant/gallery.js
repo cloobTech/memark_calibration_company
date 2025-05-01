@@ -54,7 +54,7 @@ import others_5 from "../assets/gallery/others/others_5.jpeg";
 
 export const image_gallery = [
   {
-    service_station: "Kano Office Gallery",
+    service_station: "Kano Office",
     images: [
       kn_1,
       kn_2,
@@ -70,7 +70,7 @@ export const image_gallery = [
     ],
   },
   {
-    service_station: "Abuja Office Gallery",
+    service_station: "Abuja Office",
     images: [
       abj_1,
       abj_2,
@@ -87,15 +87,15 @@ export const image_gallery = [
     ],
   },
   {
-    service_station: "Kaduna Office Gallery",
+    service_station: "Kaduna Office",
     images: [kd_1, kd_2, kd_3, kd_4, kd_5, kd_6, kd_7],
   },
   {
-    service_station: "Illorin Office Gallery",
+    service_station: "Illorin Office",
     images: [il_1, il_2, il_3, il_4, il_5, il_6, il_7, il_8, il_9],
   },
   {
-    service_station: "Others",
+    service_station: "Other Gallery",
     images: [others_1, others_2, others_3, others_4, others_5],
   },
 ];

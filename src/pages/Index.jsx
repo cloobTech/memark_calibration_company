@@ -39,6 +39,7 @@ const Index = () => {
         transition="fade"
         transitionDuration={600}
         transitionTimingFunction="ease"
+   
         styles={{
           modal: {
             backgroundColor: "#f8f9fa",

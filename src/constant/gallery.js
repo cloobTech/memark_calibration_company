@@ -51,6 +51,39 @@ import others_2 from "../assets/gallery/others/others_2.jpeg";
 import others_3 from "../assets/gallery/others/others_3.jpeg";
 import others_4 from "../assets/gallery/others/others_4.jpeg";
 import others_5 from "../assets/gallery/others/others_5.jpeg";
+import others_6 from "../assets/gallery/others/others_6.jpeg";
+import others_7 from "../assets/gallery/others/others_7.jpeg";
+import others_8 from "../assets/gallery/others/others_8.jpeg";
+import others_9 from "../assets/gallery/others/others_9.jpeg";
+import others_10 from "../assets/gallery/others/others_10.jpeg";
+import others_11 from "../assets/gallery/others/others_11.jpeg";
+import others_12 from "../assets/gallery/others/others_12.jpeg";
+
+//  Other 2 Images
+import other_2_1 from "../assets/gallery/others/other_2_1.jpeg";
+import other_2_2 from "../assets/gallery/others/other_2_2.jpeg";
+import other_2_3 from "../assets/gallery/others/other_2_3.jpeg";
+import other_2_4 from "../assets/gallery/others/other_2_4.jpeg";
+import other_2_5 from "../assets/gallery/others/other_2_5.jpeg";
+import other_2_6 from "../assets/gallery/others/other_2_6.jpeg";
+import other_2_7 from "../assets/gallery/others/other_2_7.jpeg";
+import other_2_8 from "../assets/gallery/others/other_2_8.jpeg";
+import other_2_9 from "../assets/gallery/others/other_2_9.jpeg";
+import other_2_10 from "../assets/gallery/others/other_2_10.jpeg";
+import other_2_11 from "../assets/gallery/others/other_2_11.jpeg";
+import other_2_12 from "../assets/gallery/others/other_2_12.jpeg";
+import other_2_13 from "../assets/gallery/others/other_2_13.jpeg";
+import other_2_14 from "../assets/gallery/others/other_2_14.jpeg";
+import other_2_15 from "../assets/gallery/others/other_2_15.jpeg";
+import other_2_16 from "../assets/gallery/others/other_2_16.jpeg";
+import other_2_17 from "../assets/gallery/others/other_2_17.jpeg";
+import other_2_18 from "../assets/gallery/others/other_2_18.jpeg";
+import other_2_19 from "../assets/gallery/others/other_2_19.jpeg";
+import other_2_20 from "../assets/gallery/others/other_2_20.jpeg";
+
+import other_2_21 from "../assets/gallery/others/other_2_21.jpeg";
+import other_2_22 from "../assets/gallery/others/other_2_22.jpeg";
+import other_2_23 from "../assets/gallery/others/other_2_23.jpeg";
 
 export const image_gallery = [
   {
@@ -96,6 +129,43 @@ export const image_gallery = [
   },
   {
     service_station: "Other Gallery",
-    images: [others_1, others_2, others_3, others_4, others_5],
+    images: [
+      others_1,
+      others_2,
+      others_3,
+      others_4,
+      others_5,
+      others_6,
+      others_7,
+      others_8,
+      others_9,
+      others_10,
+      others_11,
+      others_12,
+
+      other_2_1,
+      other_2_2,
+      other_2_3,
+      other_2_4,
+      other_2_5,
+      other_2_6,
+      other_2_7,
+      other_2_8,
+      other_2_9,
+      other_2_10,
+      other_2_11,
+      other_2_12,
+      other_2_13,
+      other_2_14,
+      other_2_15,
+      other_2_16,
+      other_2_17,
+      other_2_18,
+      other_2_19,
+      other_2_20,
+      other_2_21,
+      other_2_22,
+      other_2_23,
+    ],
   },
 ];

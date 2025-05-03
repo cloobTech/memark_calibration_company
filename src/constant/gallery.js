@@ -58,6 +58,8 @@ import others_9 from "../assets/gallery/others/others_9.jpeg";
 import others_10 from "../assets/gallery/others/others_10.jpeg";
 import others_11 from "../assets/gallery/others/others_11.jpeg";
 import others_12 from "../assets/gallery/others/others_12.jpeg";
+import others_13 from "../assets/gallery/others/others_13.jpeg";
+import others_14 from "../assets/gallery/others/others_14.jpeg";
 
 //  Other 2 Images
 import other_2_1 from "../assets/gallery/others/other_2_1.jpeg";
@@ -142,6 +144,8 @@ export const image_gallery = [
       others_10,
       others_11,
       others_12,
+      others_13,
+      others_14,
 
       other_2_1,
       other_2_2,
